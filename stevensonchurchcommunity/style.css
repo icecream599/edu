@@ -1,0 +1,36 @@
+/* Layout styles for interactive study module cards */
+.study-module {
+  width: 13%;
+  display: inline-block;
+  background-color: #1a202c;
+  padding: 1%;
+  border-radius: 10%;
+  margin: 2%;
+  transition-duration: 0.5s;
+}
+
+.study-module:hover {
+  transform: scale(1.05);
+}
+
+.study-module h1 {
+  font-size: 0.85em;
+  color: #ffffff;
+}
+
+.study-module img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+/* Embedded module viewer */
+iframe {
+  width: 100%;
+  height: 95%;
+}
+
+/* Top navigation bar */
+#header-bar {
+  height: 5%;
+  display: inline-block;
+}
